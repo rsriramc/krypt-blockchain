@@ -4,7 +4,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import Logo from "../../images/logo.png";
 
 const NavbarItem = ({ title, classProps }) => {
-  return <li className={`mx-4 cursor-pointer ${classProps}`}>{title}</li>;
+  return <li className={`mx-4 cursor-pointer ${classProps} hover:underline`}>{title}</li>;
 };
 
 const Navbar = () => {
